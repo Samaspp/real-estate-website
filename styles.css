@@ -122,3 +122,38 @@ body{
     top: 100px;
     left: 553px;
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left:200px;
+}
+
+.headings{
+font-weight: bold;
+}
+
+.subheads{
+font-size: 10px;
+}
+
+.lil-head{
+    display: flex;
+    font-size: smaller;
+    justify-content: center;
+}
+
+.main-head{
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.subheading-container{
+    padding-top: 100px;
+}
